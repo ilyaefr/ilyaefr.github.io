@@ -1,0 +1,60 @@
+.header
+	height: 72px
+	background-color: #FFFFFF
+	display: flex
+	align-items: center
+	&__nav
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&__logo
+		width: 100%
+		transition: 0.6s all
+		&:hover
+			width: 115%
+	&__navigation
+		display: flex
+		justify-content: space-between
+		align-items: center
+		margin: 0
+		padding: 0
+		&-item
+			margin-right: 32px
+			list-style-type: none
+			&:last-child
+				margin-right: 0
+		&-link
+			font-weight: 400
+			font-size: 16px
+			color: #1D2228
+			text-decoration: none
+	&__authentication
+		display: flex
+		align-items: center
+		&-signUp
+			margin-right: 16px
+			padding: 0
+			width: 195px
+			height: 40px
+			border-radius: 5px
+			border: none
+			background-color: #d9dbf1		
+			font-weight: 400
+			font-size: 16px
+			color: #1D2228
+			&:hover
+				font-size: 18px
+				box-shadow: 0px 0px 20px #7c80ae
+		&-logIn
+			padding: 0
+			width: 163px
+			height: 40px
+			border-radius: 5px
+			border: none
+			background-color: #7c80ae
+			font-weight: 400
+			font-size: 16px
+			color: #FFFFFF
+			&:hover
+				font-size: 18px
+				box-shadow: 0px 0px 20px #7c80ae
